@@ -463,8 +463,8 @@ function Contact() {
         <p className="eyebrow">CONTACT</p>
         <h2>Let’s build something together</h2>
         <p className="sub">I’m open to internships. Write or call me.</p>
-        <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
-        <a href={PHONE_LINK}>{PHONE_LABEL}</a>
+        <a href={`mailto:${EMAIL}`}>Email</a>
+        <a href={PHONE_LINK}>Phone</a>
         {GITHUB_URL && <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">GitHub</a>}
         {LINKEDIN_URL && <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">LinkedIn</a>}
       </div>
